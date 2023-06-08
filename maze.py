@@ -132,9 +132,11 @@ while game:
             finish = True
             window.blit(win, (160,200))
             money.play()
+    else:
+        finish = False
+        player.rect.x = 5
+        player.rect.y = height - 80
+        time.delay(3000)
             
-    
-    display.update()#отрисовка всего кадров
+    display.update()#отрисовка всего кадров   
     clock.tick(FPS)
-
-
