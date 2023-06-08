@@ -55,10 +55,6 @@ class Wall(sprite.Sprite):
     def draw_wall(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-
-
-
-
 #размеры окна игры
 width = 700
 height = 500
